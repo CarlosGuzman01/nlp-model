@@ -1,0 +1,9 @@
+{
+  "labels":[
+    "FOOD",
+    "SPORTS",
+    "BOOKS"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}
