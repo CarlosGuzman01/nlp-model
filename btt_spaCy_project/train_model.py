@@ -39,7 +39,7 @@ for _, row in df.iterrows():
 
 # Train the model
 optimizer = nlp.initialize()
-for epoch in range(10):
+for epoch in range(20):
     random.shuffle(train_data)
     losses = {}
     batches = minibatch(train_data, size=2)
@@ -48,7 +48,7 @@ for epoch in range(10):
     print(f"Epoch {epoch+1} Loss: {losses}")
 
 # Save the model
-nlp.to_disk("text_classifier_model")
+nlp.to_disk("text_classifier_model_20")
 print("✅ Model trained and saved to 'text_classifier_model'")
 
 

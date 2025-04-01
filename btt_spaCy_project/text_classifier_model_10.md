@@ -13,4 +13,4 @@ Epoch 10 Loss: {'textcat': 3.1911913693196134}
 Execution time: 15390.558964 seconds
 
 
-this model was trained with 10 epock
+this model was trained with 10 epock, and 300,000 data points (rows)
